@@ -1,0 +1,22 @@
+{
+    "name": "geistpress/wp-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal Kleindienst",
+            "email": "mail@pascalkleindienst.de"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5",
+        "mrubiosan/facade": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeistPress\\Helpers\\": "src"
+        }
+    }
+}
