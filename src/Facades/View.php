@@ -5,7 +5,7 @@ use GeistPress\Helpers\Services;
 
 class View extends \Mrubiosan\Facade\FacadeAccessor
 {
-    static public function getServiceName()
+    public static function getServiceName()
     {
         return 'view';
     }
