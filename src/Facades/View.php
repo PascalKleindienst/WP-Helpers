@@ -7,6 +7,6 @@ class View extends \Mrubiosan\Facade\FacadeAccessor
 {
     static public function getServiceName()
     {
-        return 'View';
+        return 'view';
     }
 }

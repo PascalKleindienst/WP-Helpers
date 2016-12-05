@@ -23,12 +23,12 @@ class Loader
     {
         // Facades
         $this->facades = [
-            'View' => function ($loader) {
-                if (!array_key_exists('View', $loader->loaded)) {
-                    $loader->loaded['View'] = new \GeistPress\Helpers\Services\View();
+            'view' => function ($loader) {
+                if (!array_key_exists('view', $loader->loaded)) {
+                    $loader->loaded['view'] = new \GeistPress\Helpers\Services\Renderer();
                 }
 
-                return $loader->loaded['View'];
+                return $loader->loaded['view'];
             }
         ];
 
