@@ -21,7 +21,7 @@ class Renderer
 
     /**
      * Set paths
-     * 
+     *
      * @param string $path
      * @param string|null $parent - path to parent theme
      */
