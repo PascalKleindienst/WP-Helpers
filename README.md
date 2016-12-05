@@ -1,0 +1,3 @@
+[![Travis](https://img.shields.io/travis/PascalKleindienst/WP-Helpers.svg?style=flat-square)](https://travis-ci.org/PascalKleindienst/WP-Helpers)
+[![StyleCI](https://styleci.io/repos/75538120/shield?branch=master)](https://styleci.io/repos/75538120)
+[![Code Climate](https://img.shields.io/codeclimate/github/PascalKleindienst/WP-Helpers.svg?style=flat-square)](https://codeclimate.com/github/PascalKleindienst/WP-Helpers)
