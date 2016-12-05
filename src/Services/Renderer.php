@@ -39,7 +39,7 @@ class Renderer
      * @throws \InvalidArgumentException if file is not found
      * @return boolean
      */
-    public function render($file, array $data=[])
+    public function render($file, array $data = [])
     {
         extract($data);
         
@@ -58,7 +58,7 @@ class Renderer
      * @param string $name
      * @return boolean
      */
-    public function parent_template($name)
+    public function parentTemplate($name)
     {
         $template = $this->parent . $name . '.php';
     
