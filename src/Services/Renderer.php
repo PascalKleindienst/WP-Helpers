@@ -36,6 +36,7 @@ class Renderer
      *
      * @param string $file
      * @param array $data
+     * @throws \InvalidArgumentException if file is not found
      * @return boolean
      */
     public function render($file, array $data=[])
@@ -47,6 +48,8 @@ class Renderer
         if (file_exists($file)) {
             return include($file);
         }
+
+        throw new \InvalidArgumentException("File $file does not exist");
     }
 
     /**
