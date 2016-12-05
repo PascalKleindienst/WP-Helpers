@@ -33,7 +33,7 @@ class Loader
         ];
 
         // Locator+Loader
-        $locator = new CallableAdapter(function($name) {
+        $locator = new CallableAdapter(function ($name) {
             return $this->load($name);
         });
 
@@ -47,7 +47,7 @@ class Loader
      * @return mixed
      */
     private function load($name)
-    {   
+    {
         // Facade does not exist
         if (!array_key_exists($name, $this->facades)) {
             throw new \InvalidArgumentException("No facade with name $name found");
