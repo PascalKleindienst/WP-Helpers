@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "php" : ">=5.5",
+        "php": ">=5.5",
         "mrubiosan/facade": "^1.0"
     },
     "require-dev": {
