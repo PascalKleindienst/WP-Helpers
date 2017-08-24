@@ -24,11 +24,14 @@ class Renderer
      *
      * @param string $path
      * @param string|null $parent - path to parent theme
+     * @return Renderer
      */
     public function init($path, $parent = null)
     {
         $this->path = $path;
         $this->parent = $parent;
+
+        return $this;
     }
 
     /**
